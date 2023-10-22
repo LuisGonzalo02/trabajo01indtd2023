@@ -154,51 +154,15 @@ d3  18.0 13.0  -2.5
 d4   0.0  0.0   0.0
 
 
-Criterio de Wald
 ```{r}
-criterio.Wald(tabladecision2, favorable = T)$AlternativaOptima
-
+criterio.Todos(tabladecision2, alfa=0.5)
 ```
+
 En el caso pesimista, lo mejor es no arriesgarse (alternativa d4)
-
-Criterio Optimista
-```{r}
-criterio.Optimista(tabladecision2, favorable = T)$AlternativaOptima
-```
 Bajo el criterio optimista, se abre el local en el centro (alternativa d1)
-
-```{r}
-criterio.Hurwicz(tabladecision2, favorable = T, alfa = 0.5)$AlternativaOptima
-```
 Bajo el criterio de Hurwicz, y con un índice de optimismo del 0.5, se eligiría abrir el local en el centro (alternativa d1)
-
-Veamos qué ocurre con distintos índices
-```{r}
-dibuja.criterio.Hurwicz_Intervalos(tabladecision2)
-```
-Entre valores de 0 y 0.122, no se abriría ningún local
-Entre valores de 0.122 y 0.452, se optaría por el pequeño local del barrio
-Entre valores de 0.452 y 1, se abriría el local en el centro
-
-Criterio de Savage
-```{r}
-criterio.Savage(tabladecision2, favorable = T)$AlternativaOptima
-
-```
 Bajo el criterio de Savage, se elige abrir el local cerca del centro (alternativa d2)
-
-Criterio de Laplace
-```{r}
-criterio.Laplace(tabladecision2, favorable = T)$AlternativaOptima
-
-```
 Bajo el criterio de Laplace, se elige abrir el local en el centro (alternativa d1)
-
-Criterio del punto ideal
-```{r}
-criterio.PuntoIdeal(tabladecision2, favorable = T)$AlternativaOptima
-
-```
 Bajo el criterio del punto ideal y con la norma euclídea, se elige abrir el local en el centro (alternativa d1)
 
 Conclusión: Mi decisión final sería abrir en el centro, ya que bajo la mayoría de criterios expuestos, se tiene dicha decisión.
