@@ -1,5 +1,5 @@
 ---
-title: "Resolución"
+title: "Resolucion"
 author: "luis gonzalo"
 date: '2023-10-22'
 output: html_document
@@ -44,7 +44,7 @@ veamos que ocurre para distintos alfas
 ```{r}
 dibuja.criterio.Hurwicz_Intervalos(tabladecion1)
 ```
-En la gráfica se observa que para valores de alfa menores que 0.5 se elige la alternativa d2, para valores mayores que 0.5 se elige la alternativa d3
+En la grafica se observa que para valores de alfa menores que 0.5 se elige la alternativa d2, para valores mayores que 0.5 se elige la alternativa d3
 
 Criterio de Savage
 ```{r}
@@ -92,7 +92,7 @@ Veamos que ocurre para distintos alfas
 ```{r}
 dibuja.criterio.Hurwicz_Intervalos(tabladecion1, favorable = F)
 ```
-En la gráfica se observa que para valores de alfa menores que 0.3 se elige la alternativa d2, para valores mayores que 0.3 se elige la alternativa d1
+En la grafica se observa que para valores de alfa menores que 0.3 se elige la alternativa d2, para valores mayores que 0.3 se elige la alternativa d1
 
 Criterio de Savage
 ```{r}
@@ -122,7 +122,7 @@ Jose Luis quiere abrir un local en Sevilla y tiene tres opciones:
 - La primera se encuentra en pleno centro de la ciudad con unas estimaciones de beneficios de 46,5 mil euros al año en el mejor de los casos 30 mil en un caso intermedio y con perdidas de 26 mil en el peor de los casos.
 - La segunda se encuentra cerca del centro, con unas estimaciones de beneficios de 27 mil euros al año en el mejor de los casos, 19.5 mil euros en un caso intermedio y con perdidas de 14 mil euros en el peor de los casos
 - La tercera es abrir un pequeño local en un barrio que tiene unas estimaciones de beneficios de 18 mil euros al año en el mejor de los casos, 13 mil euros en un caso intermedio y 2,5 mil euros de perdidas en el peor de los caso.
-Tambien se contempla la opción de no abrir ningun local.
+Tambien se contempla la opcion de no abrir ningun local.
 ¿Cual es la mejor decision?
 
 Planteamiento
@@ -133,7 +133,7 @@ Alternativas
  - d1: Abrir un local en el centro
  - d2: Abrir un local cerca del centro
  - d3: Abrir el pequeño local en el barrio
- - d4: No abrir ningún local
+ - d4: No abrir ningun local
  
 Estados de la naturaleza
  - e1: Mercado favorable
@@ -160,12 +160,12 @@ criterio.Todos(tabladecision2, alfa=0.5)
 
 En el caso pesimista, lo mejor es no arriesgarse (alternativa d4)
 Bajo el criterio optimista, se abre el local en el centro (alternativa d1)
-Bajo el criterio de Hurwicz, y con un índice de optimismo del 0.5, se eligiría abrir el local en el centro (alternativa d1)
+Bajo el criterio de Hurwicz, y con un indice de optimismo del 0.5, se eligiria abrir el local en el centro (alternativa d1)
 Bajo el criterio de Savage, se elige abrir el local cerca del centro (alternativa d2)
 Bajo el criterio de Laplace, se elige abrir el local en el centro (alternativa d1)
-Bajo el criterio del punto ideal y con la norma euclídea, se elige abrir el local en el centro (alternativa d1)
+Bajo el criterio del punto ideal y con la norma euclidea, se elige abrir el local en el centro (alternativa d1)
 
-Conclusión: Mi decisión final sería abrir en el centro, ya que bajo la mayoría de criterios expuestos, se tiene dicha decisión.
+Conclusion: Mi decision final seria abrir en el centro, ya que bajo la mayoria de criterios expuestos, se tiene dicha decision.
 
 
 
