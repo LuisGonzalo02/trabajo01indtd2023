@@ -8,7 +8,7 @@ d3   1  0  10 -12
 
 Problema 2
 
-José luis quiere abrir un local en sevilla y tiene tres opciones:
+José Luis quiere abrir un local en Sevilla y tiene tres opciones:
   - La primera se encuentra en pleno centro de la ciudad con unas estimaciones de beneficios de 46,5 mil euros al año en el mejor de los casos 30 mil en un caso intermedio y con pérdidas de 26 mil en el peor de los casos.
 - La segunda se encuentra cerca del centro, con unas estimaciones de beneficios de 27 mil euros al año en el mejor de los casos, 19.5 mil euros en un caso intermedio y con pérdidas de 14 mil euros en el peor de los casos
 - La tercera es abrir un pequeño local en un barrio que tiene unas estimaciones de beneficios de 18 mil euros al año en el mejor de los casos, 13 mil euros en un caso intermedio y 2,5 mil euros de pérdidas en el peor de los caso.
