@@ -42,7 +42,7 @@ Son igual de optimas las alternativas d2 que d3
 veamos que ocurre para distintos alfas
 
 ```{r}
-dibuja.criterio.Hurwicz_Intervalos(tabladecion1)
+dibuja.criterio.Hurwicz_Intervalos(tabladecision1)
 ```
 En la grafica se observa que para valores de alfa menores que 0.5 se elige la alternativa d2, para valores mayores que 0.5 se elige la alternativa d3
 
@@ -90,7 +90,7 @@ Se elige la alternativa d1
 Veamos que ocurre para distintos alfas
 
 ```{r}
-dibuja.criterio.Hurwicz_Intervalos(tabladecion1, favorable = F)
+dibuja.criterio.Hurwicz_Intervalos(tabladecision1, favorable = F)
 ```
 En la grafica se observa que para valores de alfa menores que 0.3 se elige la alternativa d2, para valores mayores que 0.3 se elige la alternativa d1
 
