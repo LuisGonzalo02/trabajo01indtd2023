@@ -201,6 +201,8 @@ criterio.PuntoIdeal(tabladecision2, favorable = T)$AlternativaOptima
 ```
 Bajo el criterio del punto ideal y con la norma euclídea, se elige abrir el local en el centro (alternativa d1)
 
+Conclusión: Mi decisión final sería abrir en el centro, ya que bajo la mayorría de criterios expuestos, se tiene dicha decisión.
+
 
 
 
