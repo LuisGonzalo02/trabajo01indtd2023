@@ -7,6 +7,8 @@ d1 -13  9 -15 -12
 d2   0 -8   6  -1
 d3   1  0  10 -12
 
+Primero entendiendo la tabla favorablemente, y después en el caso desfavorable
+
 Problema 2
 
 Jose Luis quiere abrir un local en Sevilla y tiene tres opciones:
