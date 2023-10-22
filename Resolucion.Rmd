@@ -24,7 +24,109 @@ Primero: Caso favorable
 
 Criterio de Wald
 ```{r}
-criterio.Wald(tabladecision1, favorable = T)
+criterio.Wald(tabladecision1, favorable = T)$AlternativaOptima
 
 ```
+Se elige la alternativa d2
+
+Criterio Optimista
+```{r}
+criterio.Optimista(tabladecision1, favorable = T)$AlternativaOptima
+```
+Se elige la alternativa d3
+```{r}
+criterio.Hurwicz(tabladecision1, favorable = T, alfa = 0.5)$AlternativaOptima
+```
+
+Son igual de optimas las alternativas d2 que d3
+veamos que ocurre para distintos alfas
+
+```{r}
+dibuja.criterio.Hurwicz_Intervalos(tabladecion1)
+```
+En la gráfica se observa que para valores de alfa menores que 0.5 se elige la alternativa d2, para valores mayores que 0.5 se elige la alternativa d3
+
+Criterio de Savage
+```{r}
+criterio.Savage(tabladecision1, favorable = T)$AlternativaOptima
+
+```
+Se elige la alternativa d3
+
+Criterio de Laplace
+```{r}
+criterio.Laplace(tabladecision1, favorable = T)$AlternativaOptima
+
+```
+Se elige la alternativa d3
+
+Criterio del punto ideal
+```{r}
+criterio.PuntoIdeal(tabladecision1, favorable = T)$AlternativaOptima
+
+```
+Se elige la alternativa d3
+
+Segundo: Caso desfavorable
+
+Criterio de Wald
+```{r}
+criterio.Wald(tabladecision1, favorable = F)$AlternativaOptima
+
+```
+Se elige la alternativa d2
+
+Criterio Optimista
+```{r}
+criterio.Optimista(tabladecision1, favorable = F)$AlternativaOptima
+```
+Se elige la alternativa d1
+
+```{r}
+criterio.Hurwicz(tabladecision1, favorable = F, alfa = 0.5)$AlternativaOptima
+```
+Se elige la alternativa d1
+
+Veamos que ocurre para distintos alfas
+
+```{r}
+dibuja.criterio.Hurwicz_Intervalos(tabladecion1, favorable = F)
+```
+En la gráfica se observa que para valores de alfa menores que 0.3 se elige la alternativa d2, para valores mayores que 0.3 se elige la alternativa d1
+
+Criterio de Savage
+```{r}
+criterio.Savage(tabladecision1, favorable = F)$AlternativaOptima
+
+```
+Se elige la alternativa d1
+
+Criterio de Laplace
+```{r}
+criterio.Laplace(tabladecision1, favorable = F)$AlternativaOptima
+
+```
+Se elige la alternativa d1
+
+Criterio del punto ideal
+```{r}
+criterio.PuntoIdeal(tabladecision1, favorable = F)$AlternativaOptima
+
+```
+Se elige la alternativa d1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
